@@ -1,0 +1,37 @@
+body {    
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    text-align: center;
+    padding: 25px;
+}
+
+#ongoingList > img {
+    width: 150px;
+    height: 210px;
+    transition: all 0.75s;
+}
+
+#ongoingList > img:hover {
+    transform: scale(2.25);
+}
+
+h1 {
+    font-family: 'Shrikhand', cursive;
+}
+
+button {
+    background-color: rgba(0, 225, 0, 0.7);
+    width: 120px;
+    height: 50px;
+    font-family: 'Shrikhand', cursive;
+    font-size: 22px;
+}
+
+img {
+    padding: 20px;
+}
