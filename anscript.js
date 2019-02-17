@@ -62,3 +62,11 @@ libraryImage.onclick = () => drawACard();
 actualScheme.onclick = () => addOngoing();
 button.onclick = () => shuffle();
 ongoingList.onclick = (event) => removeElement(event);
+
+// Anchor wrapping for tooltips
+//
+// var mydiv = document.getElementById("myDiv");
+// var aTag = document.createElement('a');
+// aTag.setAttribute('href',"yourlink.htm");
+// aTag.innerHTML = "link text";
+// mydiv.appendChild(aTag);
