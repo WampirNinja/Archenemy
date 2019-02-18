@@ -9,18 +9,20 @@
     <link rel="stylesheet" type="text/css" href="anstyle.css">
 </head>
 <body>
+    <script>alert("Magic The Gathering Archenemy Schemer \n Please shuffle the library to start using Shuffle button! \n Thank you! \n By Szellem")</script>
     <div  class="container">
         <div class="item">
-            <h1>Library</h1>
+            <h1 id="library">Library</h1>
             <a href="#" title="Click to draw a scheme card!"><img id="libraryImage" src="./cards/Archenemy_back.jpg"></a>
-            <footer><button id="shuffle">Shuffle</button></footer>
+            <footer><button id="shuffle" href="#" title="Shuffle all cards into the Library">Shuffle</button></footer>
         </div>
         <div class="item">
-            <h1>Actual Scheme</h1>
+            <h1 id="actualScheme">Actual Scheme</h1>
             <a href="#" title="Click to move scheme to Ongoing List"><img id="actualSceme" src=""></a>
         </div>
-        <div class="item" id="ongoingList">
+        <div class="item">
             <h1>Ongoing Scheme</h1>
+            <div id="ongoingList"></div>
         </div>
     </div>
         <script src="anscript.js"></script>
