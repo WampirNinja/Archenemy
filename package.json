@@ -1,0 +1,22 @@
+{
+  "name": "archenemy",
+  "version": "1.0.0",
+  "description": "Creates a deck for MTG Archenemy\r I will start a new carrier as web developer and because I'm quite into MTG too, it looked like a good start to make a webpage for one of my favorite games.\r Any and all advice wellcome!",
+  "main": "anscript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WampirNinja/Archenemy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WampirNinja/Archenemy/issues"
+  },
+  "homepage": "https://github.com/WampirNinja/Archenemy#readme",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
